@@ -1,0 +1,40 @@
+body {
+    background-color: whitesmoke;
+}
+
+/* main */
+
+.comments-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.comment {
+    color: white;
+    padding: 5rem;
+}
+
+.comment:nth-child(1) {
+    background-color: rgb(221, 253, 206);
+    color: rgb(131, 131, 131);
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.comment:nth-child(2) {
+    background-color: rgb(252, 194, 238);
+}
+
+.comment:nth-child(3) {
+    background-color: rgb(255, 209, 209);
+}
+
+.comment:nth-child(4) {
+    background-color: rgb(209, 212, 255);
+}
+
+.comment:nth-child(5) {
+    background-color: rgb(209, 255, 255);
+    color: rgb(131, 131, 131);
+}
